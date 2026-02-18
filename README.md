@@ -3,7 +3,7 @@ A Retrieval-Augmented Generation (RAG) based application that ingests CVs (PDFs)
 The system extracts text from resumes, embeds the content, stores it in a vector database, and retrieves the most relevant information to answer user questions accurately.
 
 
-#🚀 Features
+# 🚀 Features
 
 📥 Upload and parse CVs in PDF format
 
@@ -16,7 +16,7 @@ The system extracts text from resumes, embeds the content, stores it in a vector
 ⚡ Efficient and lightweight pipeline
 
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 LangChain – RAG orchestration and chaining
 
@@ -30,7 +30,7 @@ PyPDF – PDF text extraction
 
 Google Generative AI – LLM for answer generation
 
-#🧩 Architecture Overview
+# 🧩 Architecture Overview
 
 Document Loading
 CVs are loaded from PDF files and converted into raw text.
@@ -47,7 +47,7 @@ Relevant chunks are retrieved based on semantic similarity to the user query.
 Generation
 The retrieved context is passed to a generative model to produce accurate answers.
 
-#📈 Future Improvements
+# 📈 Future Improvements
 
 Multi-CV comparison
 
